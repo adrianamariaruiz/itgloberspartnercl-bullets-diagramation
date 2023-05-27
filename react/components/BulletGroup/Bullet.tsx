@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'vtex.render-runtime'
 import { useCssHandles } from 'vtex.css-handles'
+import './styles.css'
 
 import { LinkProps } from './BulletTypes'
 

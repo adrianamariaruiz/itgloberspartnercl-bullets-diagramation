@@ -1,7 +1,7 @@
 {
     "list-context.bullets-diagramation": {
         "component": "BulletGroup",
-        "children": "children",
+        "composition": "children",
         "allowed": "*",
         "content": {
             "properties": {

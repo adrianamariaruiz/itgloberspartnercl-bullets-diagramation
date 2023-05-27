@@ -5,8 +5,6 @@ import Bullet from '../Bullet'
 
 export const getBulletAsTSXList = (bullets: BulletsSchema) =>
   bullets.map((bullet: any, index) => {
-    console.log('bullet Por Aca:', bullet)
-
     return (
       <Bullet
         key={index}
